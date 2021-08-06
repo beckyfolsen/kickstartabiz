@@ -84,7 +84,6 @@ p{
 
 .whoweare{
 	color: black;
-	height: 100vh;
 }
 
 .whoweare h1{
@@ -121,7 +120,6 @@ h2{
 	background-color: #0A1724;
 	color: white;
 	text-align: center;
-	height: 100vh;
 }
 
 .colorboxes{
@@ -175,7 +173,10 @@ h2{
 	background-color: white;
 	color: black;
 	text-align: left;
-	height: 100vh;
+}
+
+.mTop{
+	margin-top: 30px;
 }
 
 .kickbutt h1{
@@ -227,6 +228,10 @@ h2{
 	background-image: url("../images/hero-tablet-landscape.jpg");
 }
 
+.width50{
+	width: 50%;
+}
+
 .colorboxes{
 	display: flex;
 	flex-direction: row;
@@ -243,13 +248,27 @@ h2{
 	padding-right: 0px;
 }
 
-
+.words h4{
+	font-size: 2rem;
+}
 .yellow{
 	margin-top:100px;
 }
 
 .blue{
 	margin-top:200px;
+}
+
+.email{
+	flex-direction: row;
+}
+
+.social{
+	width: 50%;
+}
+
+.form{
+width: 50%;
 }
 }
 @media only screen and (min-width: 1600px) {
