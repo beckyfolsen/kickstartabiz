@@ -1,0 +1,264 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	margin: 0 auto;
+	text-rendering: optimizeLegibility;
+}
+.fa-arrow-up{
+	font-size: 1rem;
+	color: black;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+	font-size: 3.8rem;
+	padding-bottom: 20px;
+}
+
+h3{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 3.8rem;
+	color: white;
+}
+
+h4{
+	font-family: 'Luckiest Guy', cursive;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.margins{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.hero{
+	margin: 0 auto;
+	height: 100vh;
+	background-image: url("../images/hero-mobile.jpg");
+	background-repeat: no-repeat;
+	background-size: cover
+	
+}
+
+.logo{
+	padding-bottom: 50px;
+	width: 92px;
+	height: 150px;
+}
+
+.welcome{
+	color: white;
+	font-size: 1.5rem;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+	padding-bottom: 10px;
+	line-height: 150%;
+}
+
+.cta{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.whoweare{
+	color: black;
+	height: 100vh;
+}
+
+.whoweare h1{
+	color: black;
+}
+.whoweare h3{
+	color: black;
+}
+
+.right{
+	text-align: right;
+}
+
+.pBottom{
+	padding-bottom: 20px;
+}
+
+h2{
+	font-size: 1rem;
+	padding-bottom: 20px;
+}
+
+.whoweare a{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5rem;
+	color: black;
+}
+
+.whoweare a:hover{
+	color: black;
+}
+
+.whatwedo{
+	background-color: #0A1724;
+	color: white;
+	text-align: center;
+	height: 100vh;
+}
+
+.colorboxes{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 20px;
+}
+
+.box{
+	height: 100px;
+	padding: 20px;
+	box-shadow: -10px 10px white;
+	border: 1px solid black;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.green{
+	background-color: #8DC63F;
+
+}
+
+.yellow{
+	background-color: #FFC20D;
+}
+
+.blue{
+	background-color: #00BBE4;
+}
+
+.whatwedo h1 h3{
+	color: white;
+}
+
+.whatwedo .fa-arrow-up{
+	color: white;
+}
+
+.number{
+	text-align: right;
+	padding-right: 20px;
+}
+.words{
+	text-align: left;
+}
+
+.kickbutt{
+	background-color: white;
+	color: black;
+	text-align: left;
+	height: 100vh;
+}
+
+.kickbutt h1{
+	color: black;
+}
+
+.email{
+	box-shadow: -10px 10px black;
+	border: 1px solid white;
+	display: flex;
+	flex-direction: column;
+}
+
+.footerlogo{
+	width: 60px;
+	height: 66px;
+}
+
+.social{
+	background-color: #FFC20D;
+	padding: 20px;
+}
+
+.fa-linkedin{
+	font-size: 2rem;
+}
+
+.form{
+	background-color: #00BBE4;
+	padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+		.margins{
+		padding: 100px 100px 0px 100px;
+
+	}
+		.hero{
+	background-image: url("../images/hero-tablet-portrait.jpg");
+}
+
+@media only screen and (min-width: 1024px) {
+		.margins{
+		padding: 100 100 0 100px;
+
+	}
+	
+	.hero{
+	background-image: url("../images/hero-tablet-landscape.jpg");
+}
+
+.colorboxes{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.box{
+	display: block;
+	height: 200px;
+}
+
+.number{
+	text-align: right;
+	padding-right: 0px;
+}
+
+
+.yellow{
+	margin-top:100px;
+}
+
+.blue{
+	margin-top:200px;
+}
+}
+@media only screen and (min-width: 1600px) {
+
+		.margins{
+		padding: 100 100 0 100px;
+
+	}
+	.hero{
+		background-image: url("../images/hero.jpg");
+	}
+}
