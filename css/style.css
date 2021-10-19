@@ -47,14 +47,17 @@ h4{
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .hero{
 	margin: 0 auto;
-	height: 100vh;
-	background-image: url("../images/hero-mobile.jpg");
+	background-image: url("../images/hero.png");
 	background-repeat: no-repeat;
-	background-size: cover
+	/*height: 100vh;
+	background-image: url("../images/hero-mobile.jpg");
+	
+	background-size: cover;*/
 	
 }
 
@@ -67,6 +70,7 @@ h4{
 .welcome{
 	color: white;
 	font-size: 1.5rem;
+	height: 100vh;
 }
 
 p{
@@ -76,10 +80,15 @@ p{
 	line-height: 150%;
 }
 
+
+
 .cta{
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	flex-direction: row;
+}
+
+.cta .arrow{
+	padding-left: 20px;
 }
 
 .whoweare{
@@ -120,6 +129,9 @@ h2{
 	background-color: #0A1724;
 	color: white;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .colorboxes{
@@ -151,6 +163,10 @@ h2{
 
 .blue{
 	background-color: #00BBE4;
+}
+
+.red{
+	background-color: #EC1D23;
 }
 
 .whatwedo h1 h3{
@@ -211,11 +227,11 @@ h2{
 
 @media only screen and (min-width: 768px) {
 		.margins{
-		padding: 100px 100px 0px 100px;
+		padding: 100px;
 
 	}
-		.hero{
-	background-image: url("../images/hero-tablet-portrait.jpg");
+		hero{
+	background-image: url("../images/hero.png");*/
 }
 
 @media only screen and (min-width: 1024px) {
@@ -225,7 +241,8 @@ h2{
 	}
 	
 	.hero{
-	background-image: url("../images/hero-tablet-landscape.jpg");
+	background-image: url("../images/hero.png");
+	background-size: 100%;
 }
 
 .width50{
@@ -259,6 +276,10 @@ h2{
 	margin-top:200px;
 }
 
+.red{
+	margin-top:300px;
+}
+
 .email{
 	flex-direction: row;
 }
@@ -278,6 +299,8 @@ width: 50%;
 
 	}
 	.hero{
-		background-image: url("../images/hero.jpg");
+		background-image: url("../images/hero.png");
+		
+		
 	}
 }
