@@ -107,7 +107,7 @@ p{
 }
 
 .pBottom{
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 h2{
@@ -303,6 +303,10 @@ h2{
 	}
 
 @media only screen and (min-width: 1024px) {
+
+.whoweare p{
+	width: 50%;
+}
 		.margins{
 		padding: 100 100 0 100px;
 
